@@ -1,0 +1,14 @@
+*{
+	margin: 0%;
+}
+.navbar{
+	background-color: black;
+	padding: 1%;
+	font-size: 20px;
+	text-align: center;
+}
+.navbar a{
+	color: white;
+	margin-right: 10%;
+	text-decoration: none;
+}

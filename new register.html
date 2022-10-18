@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Page</title>	
+	<link rel="stylesheet" href="navigation.css"/>
+	<style type="text/css">
+		body{
+			
+			background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000),url(https://t.pimg.jp/054/573/985/1/54573985.jpg);
+			background-repeat: no-repeat;
+			background-size: 250% 250%;
+			background-position: top left;
+			
+		}
+		.Registration-page{
+			border: 2px solid ;
+			width: 30%;
+			text-align: center;
+			margin: 5% 0% 0% 35%;
+			padding: 2%;
+			border-radius: 20px;
+			margin-bottom: 10%;
+			font-size: 20px;
+		}
+		.Registration-page input{
+			padding: 1%;
+			margin-bottom: 2%;
+		}
+		.dob{
+			width: 35%;
+		}
+		.course{
+			width: 37%;
+			padding: 1%;
+		}
+		.page{
+			margin: 4%;
+		}
+		.submit{
+			background-color: lightseagreen;
+			padding: 3%;
+			color: white;
+			width: 20%;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar">
+		<a href="new register.html">Register</a>
+		<a href="Login.html">Login</a>
+		<a href="task.html">Biography</a>
+		<a href="photos.html">Photos</a>
+	</nav>
+	<form action="register" class="Registration-page">
+		<h2 class="page">Registration Page</h2>
+		<p><input type="text" placeholder="User Name" required/></p>
+		<p><input type="email" placeholder="Email" required/></p>
+		<p><input type="password" placeholder="Password" required/></p>
+		<p><input type="password" placeholder="Conform Password" required/></p>
+		<p><input type="number" placeholder="Mobile" required/></p>
+		<p><input class="dob" type="date" required /></p>
+		<p>
+			<input type="radio" value="Male" name="Gender" required/> Male&nbsp;&nbsp;
+			<input type="radio" value="Female" name="Gender" required/> Female
+		</p>
+		<p><select class="course">
+			<option value="select a course">select a course</option>
+			<option value="Mpcs">Mpcs</option>
+			<option value="Bipc">Bipc</option>
+			<option value="Mps">Mpc</option>
+		</select></p><br/>
+		<p>
+			<button class="submit">Submit</button>
+		</p>
+	</form>
+</body>
+</html>
